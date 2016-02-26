@@ -10,15 +10,6 @@
     }
     %>
             <ul class="navigation">
-            	<li>
-                    <a href="http://www.uta.edu/uta/" target="_blank"><img src="css/images/logo.png"></a>
-                </li>
-                <li>
-                    <a href="https://sis-portal-prod.uta.edu/psp/AEPPRD/EMPLOYEE/EMPL/h/?tab=PAPP_GUEST" target="_blank">MyMav</a>
-                </li>
-                <li>
-                    <a href="https://login.microsoftonline.com/login.srf?" target="_blank"><img src="css/images/email-icon.png"></a>
-                </li>
                 <li class="home">
                     <a href="index.jsp" >Home</a>
                 </li>

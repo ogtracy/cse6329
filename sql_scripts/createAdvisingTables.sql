@@ -56,3 +56,14 @@ OR (SLOT.SlotDate = APPTFW.ApptDate AND SLOT.SlotStartHour = APPTFW.ApptStartHou
 CREATE VIEW AVAILSLOT AS 
 SELECT * FROM SLOT WHERE SlotID
 NOT IN (SELECT SlotID FROM APPTSLOT);
+
+CREATE TABLE USERTYPES(
+    TypeID INTEGER NOT NULL,
+    TypeName VARCHAR(30) NOT NULL,
+    PRIMARY KEY (TypeID)
+);
+
+INSERT INTO USERTYPES (TypeID, TypeName) 
+VALUES ('0', 'Advisor'),
+('1', 'Administrator'),
+('2', 'Student');
