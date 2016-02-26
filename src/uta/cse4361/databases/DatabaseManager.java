@@ -100,4 +100,8 @@ public class DatabaseManager {
     public ArrayList<AdvisorAccount> getAccounts(){
     	return imp.getAccounts();
     }
+    
+    public ArrayList<String> getAdvisingTypes(){
+        return imp.getAppointmentTypes();
+    }
 }

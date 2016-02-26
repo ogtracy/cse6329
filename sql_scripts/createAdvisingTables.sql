@@ -67,3 +67,16 @@ INSERT INTO USERTYPES (TypeID, TypeName)
 VALUES ('0', 'Advisor'),
 ('1', 'Administrator'),
 ('2', 'Student');
+
+CREATE TABLE APPOINTMENTTYPES(
+    ApTypeID INTEGER NOT NULL AUTO_INCREMENT,
+    ApTypeName VARCHAR(30) NOT NULL,
+    PRIMARY KEY (ApTypeID)
+);
+
+INSERT INTO APPOINTMENTTYPES (ApTypeID, ApTypeName) 
+VALUES ('1', 'New Student'),
+('2', 'Returning Student'),
+('3', 'Drop Course'),
+('4', 'Enroll'),
+('5', 'Others');

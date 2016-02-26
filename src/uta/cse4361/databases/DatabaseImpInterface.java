@@ -29,4 +29,5 @@ public interface DatabaseImpInterface {
     public ArrayList<AdvisorAccount> getAccounts();
     public String modifyAccount(int id, AdvisorAccount account);
     public String deleteAccount(int id);
+    public ArrayList<String> getAppointmentTypes();
 }
