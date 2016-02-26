@@ -19,13 +19,9 @@
             
         }
         else{
-            if (rank == 1){
+            if (rank == 1){              
                 out.print("<li class='account'>"
-                        + "<a href='CreateAccount.jsp' >Create Account</a>"
-                        + "</li>");
-                
-                out.print("<li class='account'>"
-                        + "<a href='DeleteAccount.jsp' >Edit Account</a>"
+                        + "<a href='DeleteAccount.jsp' >Accounts</a>"
                         + "</li>");
             }
             if (rank == 0 || rank == 1){
